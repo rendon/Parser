@@ -10,14 +10,14 @@ public class Test {
     System.out.println("\n");
 
     // Validating an mathematical expression
-    if (parser.validate("3 + sqrt(5)"))
+    if (parser.validate("3 + sqrt(5"))
       System.out.println("The expression is valid!");
     else
       System.out.println("The expression is malformed!");
 
     System.out.println("\n\n");
 
-    //Evaluate a function in range
+    //Evaluate a function in a range
     parser = new Parser("x^2 + 2*sin(x)");
     System.out.println("x    \t     f(x)");
     for (double x = -5; x <= 5; x += 0.1) {
