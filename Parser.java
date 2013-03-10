@@ -1,5 +1,5 @@
 /*
-  This class provides a simple but useful mathematical expression parser.
+  Parser provides a simple but useful mathematical expression parser.
 
   Copyright (C) 2012 Rafael Rendón Pablo <smart.rendon@gmail.com>
 
@@ -510,7 +510,7 @@ public class Parser {
 }
 
 /**
- * This class is wrapper of the java.lang.Math class that provides
+ * This class is a wrapper of the java.lang.Math class that provides
  * more additional functionality the the class Parser.
  */
 
